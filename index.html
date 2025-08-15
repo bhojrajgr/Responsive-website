@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderAway Travel Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Header / Hero section-->
+    <header class="hero">
+        <nav>
+            <h1>WanderAway</h1>
+            <ul class="nav-links">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Unforgettable journeys begin here</p>
+            <a href="#destinations" class="btn">Explore Now</a>
+        </div>
+    </header>
+
+    <!--Destination Section-->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="cards">
+
+            <!-- Bali Card -->
+            <div class="card country-card">
+                <img src="images/bali.jpg" alt="Bali beach" />
+                <h2>Bali</h2>
+                <p>Relax on tropical beaches and explore lush jungles.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-bali">Places to visit in
+                    Bali</button>
+                <div class="mini-cards hidden" id="mini-cards-bali">
+                    <div class="mini-card"><img src="images/kuta.jpg" alt="Kuta" /><span>Kuta</span></div>
+                    <div class="mini-card"><img src="images/ubud.jpg" alt="Ubud" /><span>Ubud</span></div>
+                    <div class="mini-card"><img src="images/bali2.jpg" alt="Seminyak" /><span>Seminyak</span></div>
+                    <div class="mini-card"><img src="images/nusa_dua.jpg" alt="Nusa Dua" /><span>Nusa Dua</span></div>
+                    <div class="mini-card"><img src="images/bali3.jpg" alt="Sanur" /><span>Sanur</span></div>
+                </div>
+            </div>
+
+            <!-- Paris Card -->
+            <div class="card country-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=400&q=80"
+                    alt="Eiffel Tower in Paris" />
+                <h2>Paris</h2>
+                <p>Iconic landmarks like the Eiffel Tower, rich art and fashion scene, and romantic atmosphere.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-paris">Places to visit in
+                    Paris</button>
+                <div class="mini-cards hidden" id="mini-cards-paris">
+                    <div class="mini-card"><img src="images/paris2.jpg" alt="Louvre" /><span>Louvre</span></div>
+                    <div class="mini-card"><img src="images/paris3.jpg" alt="Montmartre" /><span>Montmartre</span></div>
+                    <div class="mini-card"><img src="images/paris4.jpg" alt="Notre Dame" /><span>Notre Dame</span></div>
+                    <div class="mini-card"><img src="images/paris5.jpg" alt="Versailles" /><span>Versailles</span></div>
+                    <div class="mini-card"><img src="images/paris6.jpg" alt="Latin Quarter" /><span>Latin Quarter</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Switzerland Card -->
+            <div class="card country-card">
+                <img src="images/switzerland.jpg" alt="Swiss Alps" />
+                <h2>Switzerland</h2>
+                <p>Snow-capped peaks and charming villages await.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-switzerland">Places to visit in
+                    Switzerland</button>
+                <div class="mini-cards hidden" id="mini-cards-switzerland">
+                    <div class="mini-card"><img src="images/s1.jpg" alt="Zurich" /><span>Zurich</span></div>
+                    <div class="mini-card"><img src="images/s2.jpg" alt="Geneva" /><span>Geneva</span></div>
+                    <div class="mini-card"><img src="images/s3.jpg" alt="Lucerne" /><span>Lucerne</span></div>
+                    <div class="mini-card"><img src="images/s4.jpg" alt="Interlaken" /><span>Interlaken</span></div>
+                    <div class="mini-card"><img src="images/s5.jpg" alt="Zermatt" /><span>Zermatt</span></div>
+                </div>
+            </div>
+
+            <!-- Italy Card -->
+            <div class="card country-card">
+                <img src="images/italy.jpg" alt="Italy scenery" />
+                <h2>Italy</h2>
+                <p>Experience rich history and world class cuisine.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-italy">Places to visit in
+                    Italy</button>
+                <div class="mini-cards hidden" id="mini-cards-italy">
+                    <div class="mini-card"><img src="images/paris2.jpg" alt="Rome" /><span>Rome</span></div>
+                    <div class="mini-card"><img src="images/s2.jpg" alt="Venice" /><span>Venice</span></div>
+                    <div class="mini-card"><img src="images/paris4.jpg" alt="Florence" /><span>Florence</span></div>
+                    <div class="mini-card"><img src="images/s3.jpg" alt="Milan" /><span>Milan</span></div>
+                    <div class="mini-card"><img src="images/paris6.jpg" alt="Naples" /><span>Naples</span></div>
+                </div>
+            </div>
+
+            <!-- Japan Card -->
+            <div class="card country-card">
+                <img src="images/japan.jpg" alt="Japan city and temples" />
+                <h2>Japan</h2>
+                <p>From ancient temples to modern cities, explore it all.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-japan">Places to visit in
+                    Japan</button>
+                <div class="mini-cards hidden" id="mini-cards-japan">
+                    <div class="mini-card"><img src="images/tokyo.jpg" alt="Tokyo" /><span>Tokyo</span></div>
+                    <div class="mini-card"><img src="images/kyoto.jpg" alt="Kyoto" /><span>Kyoto</span></div>
+                    <div class="mini-card"><img src="images/osaka.jpg" alt="Osaka" /><span>Osaka</span></div>
+                    <div class="mini-card"><img src="images/hiroshima.jpg" alt="Hiroshima" /><span>Hiroshima</span>
+                    </div>
+                    <div class="mini-card"><img src="images/sapporo.jpg" alt="Sapporo" /><span>Sapporo</span></div>
+                </div>
+            </div>
+
+            <!-- India Card -->
+            <div class="card country-card">
+                <img src="images/india.jpg" alt="India" />
+                <h2>India</h2>
+                <p>Experience rich cultural heritage, diverse landscapes, vibrant festivals.</p>
+                <button class="show-cities-btn" type="button" data-target="mini-cards-india">Places to visit in
+                    India</button>
+                <div class="mini-cards hidden" id="mini-cards-india">
+                    <div class="mini-card"><img src="images/rajasthan.jpg" alt="Rajasthan" /><span>Rajasthan</span>
+                    </div>
+                    <div class="mini-card"><img src="images/madhyapradesh.jpg" alt="Madhya Pradesh" /><span>Madhya
+                            Pradesh</span></div>
+                    <div class="mini-card"><img src="images/uttarpradesh.jpg" alt="Uttar Pradesh" /><span>Uttar
+                            Pradesh</span></div>
+                    <div class="mini-card"><img src="images/kerala.jpg" alt="Kerala" /><span>Kerala</span></div>
+                    <div class="mini-card"><img src="images/jammu.jpg" alt="Jammu Kashmir" /><span>Jammu Kashmir</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate travel lovers helping others explore the world with ease and confidence.</p>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" placeholder="Your Name" required />
+
+            <label for="email">Your Email</label>
+            <input id="email" type="email" placeholder="Your Email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Message" rows="4"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="form-message" style="display:none; color:green; margin-top:10px;">Thank you for contacting us!</div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>&copy;2025 WanderAway. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
