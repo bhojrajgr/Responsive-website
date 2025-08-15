@@ -9,10 +9,6 @@ A clean, modern, and **fully responsive website** built with HTML and CSS, desig
 - **Mobile-first design** for optimal performance on small screens
 - Works seamlessly across all viewport sizes
 
-##  Demo
-
-_Add a screenshot or GIF of your site here to show off your responsive design_
-
 ##  Technologies Used
 
 - HTML5  
@@ -80,7 +76,3 @@ Contributions are welcome! If you'd like to expand features like:
 Feel free to open a pull request or issue.
 
 ---
-
-##  License
-
-Licensed under the [MIT License](LICENSE) — feel free to use and modify!
